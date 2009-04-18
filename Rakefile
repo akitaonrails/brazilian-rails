@@ -102,7 +102,7 @@ spec = Gem::Specification.new do |s|
   
   s.autorequire = PROJECTS
   
-  s.files = [ "README.mkdn", "lib/brazilian-rails.rb"]
+  s.files = [ "README.mkdn", "lib/brazilian-rails.rb", "lib/inflector_portuguese.rb"]
 end
   
 Rake::GemPackageTask.new(spec) do |p|
